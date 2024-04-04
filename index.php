@@ -7,7 +7,13 @@
 <body>
     <h1>Página Padrão</h1>
 	<?php
-		echo "<p> Olá mundo !!!";
+        $teste = "teste";
+		echo "<p> Minha primeira conta !!!</p>";
+        echo '<p> 20 + 20 = ';
+        echo 20+20;
+        echo '</p>'
+        //if($teste == "teste") {echo "<p>Acho que entendi"};
 	?>
+
 </body>
 </html>
