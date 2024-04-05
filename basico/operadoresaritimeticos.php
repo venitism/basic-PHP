@@ -8,13 +8,13 @@
 <body>
     
     <?php 
-
+        //Váriaveis
         $v1 = 5;
         $v2 = 5;
         $msg = '<h1>Operadores aritiméticos</h1>';
         $t = 0;
         $t = $v1+$v2;
-
+        //Echo comando que escreve no documento
         echo $msg;
 
         echo '<h3>' .$v1.' + '.$v2.' = ' . ($t) . "</h3>";

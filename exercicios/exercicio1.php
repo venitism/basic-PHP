@@ -6,19 +6,23 @@
     <title>Exercicio 1</title>
 </head>
 <body>
-    <h1>Exercicio 1 - Tabuada do 2</h1>
+    <?php 
+    $n = 15;
+    ?>
+
+    <h1>Exercicio 1 - Tabuada do <?php echo $n; ?> </h1>
 
     <?php 
-    echo "<p> 2 * 1 = " . (2*1) . "</p>";
-    echo "<p> 2 * 2 = " . (2*2) . "</p>";
-    echo "<p> 2 * 3 = " . (2*3) . "</p>";
-    echo "<p> 2 * 4 = " . (2*4) . "</p>";
-    echo "<p> 2 * 5 = " . (2*5) . "</p>";
-    echo "<p> 2 * 6 = " . (2*6) . "</p>";
-    echo "<p> 2 * 7 = " . (2*7) . "</p>";
-    echo "<p> 2 * 8 = " . (2*8) . "</p>";
-    echo "<p> 2 * 9 = " . (2*9) . "</p>";
-    echo "<p> 2 * 10 = " . (2*10) . "</p>";
+    echo "<p> $n * 1 = " . ($n*1) . "</p>";
+    echo "<p> $n * 2 = " . ($n*2) . "</p>";
+    echo "<p> $n * 3 = " . ($n*3) . "</p>";
+    echo "<p> $n * 4 = " . ($n*4) . "</p>";
+    echo "<p> $n * 5 = " . ($n*5) . "</p>";
+    echo "<p> $n * 6 = " . ($n*6) . "</p>";
+    echo "<p> $n * 7 = " . ($n*7) . "</p>";
+    echo "<p> $n * 8 = " . ($n*8) . "</p>";
+    echo "<p> $n * 9 = " . ($n*9) . "</p>";
+    echo "<p> $n * 10 = " . ($n*10) . "</p>";
     ?>
 
     <h1>Exercicio 2 - Variaveis</h1>
